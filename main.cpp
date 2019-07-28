@@ -2,17 +2,16 @@
 
 using namespace std;
 
-//function prototyping
-void printSomething();
+void printCrap(int x);
 
 int main()
 {
-    printSomething();
+    printCrap(10);
 
     return 0;
 }
 
-void printSomething()
+void printCrap(int x)
 {
-    cout << "something" << endl;
+    cout << "number param " << x << endl;
 }
