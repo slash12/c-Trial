@@ -18,5 +18,19 @@ int main()
     *cout << sum;
     */
 
+    //creating variable without entering their value
+    int a;
+    int b;
+    int sum;
+
+    cout << "Enter a number! \n";
+    cin >> a;
+
+    cout << "Enter another number \n";
+    cin >> b;
+
+    sum = a + b;
+    cout << "The sum is " << sum << endl;
+
     return 0;
 }
