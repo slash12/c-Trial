@@ -2,16 +2,14 @@
 
 using namespace std;
 
-void printCrap(int x);
+int addNumbers(int x, int y);
 
 int main()
 {
-    printCrap(10);
-
     return 0;
 }
 
-void printCrap(int x)
+int addNumbers(int x, int y)
 {
-    cout << "number param " << x << endl;
+
 }
