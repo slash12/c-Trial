@@ -2,14 +2,21 @@
 
 using namespace std;
 
-int addNumbers(int x, int y);
+class Test
+{
+ public:
+     void something()
+     {
+        cout << "something" << endl;
+     }
+};
 
 int main()
 {
+    //declaration of object Test
+    Test t1;
+    //accessing the public method of the class
+    t1.something();
     return 0;
 }
 
-int addNumbers(int x, int y)
-{
-
-}
