@@ -1,22 +1,29 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 class Test
 {
- public:
-     void something()
-     {
-        cout << "something" << endl;
-     }
+    public:
+        void setName(string n)
+        {
+            this->name = n;
+        }
+
+        string getName()
+        {
+            return name;
+        }
+
+    private:
+        string name;
 };
 
 int main()
 {
-    //declaration of object Test
     Test t1;
-    //accessing the public method of the class
-    t1.something();
+    t1.setName("something");
+    cout << t1.getName();
     return 0;
 }
 
