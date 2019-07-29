@@ -5,6 +5,10 @@ using namespace std;
 class Test
 {
     public:
+        Test(string x)
+        {
+            this->setName(x);
+        }
         void setName(string n)
         {
             this->name = n;
@@ -21,9 +25,7 @@ class Test
 
 int main()
 {
-    Test t1;
-    t1.setName("something");
-    cout << t1.getName();
+    Test t1("something");
     return 0;
 }
 
